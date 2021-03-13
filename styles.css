@@ -1,5 +1,4 @@
 body {
-    text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 
@@ -10,11 +9,16 @@ body {
 .top-form {
     background-color: cadetblue;
     color: black;
-    max-width: 750px;
-    margin: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    max-width: 80%;
+    
     
 }
 
-label {
-    text-align: left;
+input {
+    width: 50%;
+    margin: 15px;
+    
 }
+
