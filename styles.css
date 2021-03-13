@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
@@ -22,3 +26,20 @@ input {
     
 }
 
+label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    border: 2px solid rosybrown;
+}
+
+.radio {
+    display: inline;
+    width: auto;
+}
