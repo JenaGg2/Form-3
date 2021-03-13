@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=H, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Basic Sign up Form</title>
 </head>
 <body>
-    <form action="results.html" method="POST">
+    <h1>Basic Sign up Form</h1>
+    <form action="index.html" method="post">
+      <div class="top-form">
         <div>
         <label for="name">Name</label>
         <input type="text" name="name" id="name" required>
@@ -29,7 +32,18 @@
             <input type="date" name="date" id="date">
         </div>
 
-        
+        <div>
+            <label for="Gender">Gender</label>
+        </div>
+        <div>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+        </div>
+
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+        </div>
         <div>
         <label for="password">Password</label>
         <input type="password" name="password" id="password">
@@ -38,7 +52,7 @@
         <div>
             <button type="submit">Submit</button>
             </div>
-
+        </div>
     </form>
     
 </body>

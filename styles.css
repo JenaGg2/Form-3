@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+
+
+}
+
+.top-form {
+    background-color: cadetblue;
+    color: black;
+    max-width: 750px;
+    margin: auto;
+    
+}
+
+label {
+    text-align: left;
+}
